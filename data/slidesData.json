@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Introduction to Next.js",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "1.jpg",
+    "text_left": "<div style={{padding: '20px', color: '#333', fontFamily: 'Arial, sans-serif'}}><p><strong>Next.js</strong> is a popular open-source framework for React, created by Vercel. It enables features like server-side rendering (SSR) and static site generation (SSG), making it ideal for both small and large-scale applications. Its ease of use and flexibility make it a go-to choice for developers.</p><p style={{marginTop: '10px'}}>With Next.js, developers can create fast and user-friendly web applications, leveraging the power of React and a seamless developer experience.</p></div>"
+  },
+  {
+    "title": "Key Features of Next.js",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "2.jpg",
+    "text_left": "<div style={{padding: '20px', backgroundColor: '#f9f9f9', borderRadius: '8px'}}><h3 style={{color: '#555'}}>Features:</h3><ul style={{color: '#555'}}><li>Server-side rendering (SSR)</li><li>Static site generation (SSG)</li><li>API Routes</li><li>Dynamic routing</li><li>Image optimization</li><li>Fast refresh</li><li>Internationalization (i18n)</li></ul><p style={{marginTop: '10px'}}>These features help streamline the development process, improve performance, and provide a great user experience.</p><p style={{marginTop: '10px', color: '#333'}}>Next.js stands out with its ability to handle both SSR and SSG. It allows developers to choose the right rendering method for their needs, improving performance and SEO. Its built-in API routes simplify the creation of server-side logic, making it a full-stack solution.</p></div>"
+  },
+  {
+    "title": "Installation and Setup",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "3.jpg",
+    "text_left": "<div style={{padding: '20px', color: '#222'}}><p>Setting up a Next.js project is straightforward. First, ensure you have <strong>Node.js</strong> and <strong>npm</strong> installed. Then, use the following command to create a new project:</p><pre style={{background: '#f4f4f4', padding: '10px', borderRadius: '5px'}}><code>npx create-next-app my-app</code></pre><p style={{marginTop: '10px'}}>This command sets up a new Next.js project with a default structure, making it easy to get started with development.</p><p style={{marginTop: '10px', backgroundColor: '#e9e9e9', padding: '10px', borderRadius: '8px'}}>Next.js projects come pre-configured with Webpack, Babel, and other essential tools. This means you can focus on building your app without worrying about the underlying setup. Whether you're deploying to Vercel, Netlify, or any other platform, Next.js makes deployment simple and efficient.</p></div>"
+  },
+  {
+    "title": "Pages and Routing in Next.js",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "4.jpg",
+    "text_left": "<div style={{padding: '20px', backgroundColor: '#fff', color: '#444'}}><p>Next.js uses a file-based routing system. The <strong>pages</strong> directory maps directly to the routes in your application. For example, a file at <code>pages/about.js</code> corresponds to the <code>/about</code> route.</p><p style={{marginTop: '10px'}}>Dynamic routes can be created using brackets. For instance, <code>pages/post/[id].js</code> can handle dynamic URLs like <code>/post/1</code>, where <code>[id]</code> is a parameter.</p><p style={{marginTop: '10px', border: '1px solid #ddd', padding: '10px', borderRadius: '5px'}}>The routing system is intuitive and supports both static and dynamic routes. With the power of dynamic imports, you can also implement code splitting, which improves performance by loading only the necessary code for each page.</p></div>"
+  },
+  {
+    "title": "Static Site Generation (SSG)",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "5.jpg",
+    "text_left": "<div style={{padding: '20px', color: '#333'}}><p>SSG allows you to generate HTML at build time, which can then be served to users. This is ideal for static content, such as blogs or marketing pages. Use <code>getStaticProps</code> to fetch data at build time and pass it to your component as props.</p><p style={{marginTop: '10px'}}>Example usage:</p><pre style={{background: '#f4f4f4', padding: '10px', borderRadius: '5px'}}><code>{`export async function getStaticProps() {`}<br/>{`  return { props: { data: await fetchData() } }`}<br/>{`}`}</code></pre></div>"
+  },
+  {
+    "title": "Server-Side Rendering (SSR)",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "6.jpg",
+    "text_left": "<div style={{padding: '20px', color: '#333', fontFamily: 'Georgia, serif'}}><p>With SSR, pages are rendered on the server for each request, providing up-to-date content. This is useful for dynamic data that changes frequently. Implement SSR using <code>getServerSideProps</code>, which fetches data and renders the page on the server.</p><p style={{marginTop: '10px'}}>Example:</p><pre style={{background: '#f4f4f4', padding: '10px', borderRadius: '5px'}}><code>{`export async function getServerSideProps() {`}<br/>{`  const data = await fetchData();`}<br/>{`  return { props: { data } };`}<br/>{`}`}</code></pre></div>"
+  },
+  {
+    "title": "API Routes in Next.js",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "7.jpg",
+    "text_left": "<div style={{padding: '20px', backgroundColor: '#f7f7f7', borderRadius: '10px', color: '#555'}}><p>API routes allow you to create backend functionality within a Next.js app. You can create endpoints by adding files to the <code>pages/api</code> directory. Each file becomes an API endpoint, and you can handle different HTTP methods like GET, POST, and PUT.</p><p style={{marginTop: '10px'}}>Example:</p><pre style={{background: '#f4f4f4', padding: '10px', borderRadius: '5px'}}><code>{`// pages/api/hello.js`}<br/>{`export default (req, res) => {`}<br/>{`  res.status(200).json({ message: 'Hello World' });`}<br/>{`};`}</code></pre><p style={{marginTop: '10px', color: '#333', fontStyle: 'italic'}}>This feature allows developers to build and deploy a full-stack application using Next.js. You can handle authentication, form submissions, and interact with databases or external APIs all within the same project.</p></div>"
+  },
+  {
+    "title": "Styling in Next.js",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "8.jpg",
+    "text_left": "<div style={{padding: '20px', color: '#444', fontFamily: 'Helvetica, sans-serif'}}><p>Next.js supports various styling options, including CSS, Sass, and CSS-in-JS solutions like styled-components. You can import global styles in <code>_app.js</code> or use CSS Modules for scoped styling. Here's an example of CSS Modules:</p><pre style={{background: '#f4f4f4', padding: '10px', borderRadius: '5px'}}><code>{`// component.module.css`}<br/>{`.container { color: blue; }`}</code></pre><p style={{marginTop: '10px', backgroundColor: '#e2e2e2', padding: '10px', borderRadius: '8px', color: '#333'}}><strong>CSS Modules</strong> offer a way to scope CSS locally to the component, preventing styles from leaking. Additionally, the <code>styled-jsx</code> library, built into Next.js, allows for writing scoped styles within the same file as your component.</p></div>"
+  },
+  {
+    "title": "Image Optimization in Next.js",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "9.jpg",
+    "text_left": "<div style={{padding: '20px', color: '#333', fontFamily: 'Verdana, sans-serif'}}><p>The <strong>Next.js Image component</strong> provides automatic image optimization, including lazy loading, resizing, and serving the appropriate image format. This improves performance and reduces load times.</p><p style={{marginTop: '10px'}}>Example usage:</p><pre style={{background: '#f4f4f4', padding: '10px', borderRadius: '5px'}}><code>{`<Image src='/image.png' width=200 height=250 alt='Description' />`}</code></pre><p style={{marginTop: '10px', backgroundColor: '#f5f5f5', borderRadius: '8px'}}>This component leverages modern image formats like WebP and can automatically adjust the image quality for different devices, ensuring the best user experience. It’s a powerful tool for developers looking to optimize media content on their sites.</p></div>"
+  },
+  {
+    "title": "Internationalization (i18n)",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "10.jpg",
+    "text_left": "<div style={{padding: '20px', color: '#333'}}><p>Next.js provides built-in support for internationalization, making it easy to serve content in multiple languages. You can define your i18n configuration in <code>next.config.js</code> and specify default and supported locales.</p><p style={{marginTop: '10px'}}>Example configuration:</p><pre style={{background: '#f4f4f4', padding: '10px', borderRadius: '5px'}}><code>{`module.exports = {`}<br/>{`  i18n: {`}<br/>{`    locales: ['en', 'fr', 'de'],`}<br/>{`    defaultLocale: 'en',`}<br/>{`  },`}<br/>{`};`}</code></pre></div>"
+  },
+  {
+    "title": "Deployment and Next.js Ecosystem",
+    "background_image": "back.jpg",
+    "image_left": "",
+    "image_right": "11.png",
+    "text_left": "<div style={{padding: '20px', backgroundColor: '#fafafa', borderRadius: '8px', color: '#333'}}><p>Deploying a Next.js application is straightforward, with support for platforms like Vercel, Netlify, and custom servers. Vercel, the creator of Next.js, offers seamless deployment with features like automatic scaling and custom domains.</p><p style={{marginTop: '10px'}}>The Next.js ecosystem also includes a variety of tools and libraries, such as Tailwind CSS for utility-first styling, TypeScript for static typing, and a vibrant community providing plugins and support.</p><p style={{marginTop: '10px', fontFamily: 'Courier New, Courier, monospace'}}><strong>Vercel</strong> provides a hassle-free deployment process, where you can link your Git repository and automatically deploy with every push. Additionally, features like preview deployments and analytics make managing your app easier than ever.</p></div>"
+  }
+]
