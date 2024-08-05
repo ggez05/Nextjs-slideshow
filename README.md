@@ -26,14 +26,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### IMAGES
 
-![image](https://github.com/user-attachments/assets/b4e1d124-d3ed-495b-accf-c8ab50f90115)
 
-![image](https://github.com/user-attachments/assets/9baf8c5e-4720-4b63-9bcd-e213f6e94978)
-
-![image](https://github.com/user-attachments/assets/094c72a7-cb2f-46b5-99fc-becf7676d67b)
-
-![image](https://github.com/user-attachments/assets/31de01b3-46e4-4166-86d6-5d5d6ed60cb6)
-
-![image](https://github.com/user-attachments/assets/a97097c2-41a8-4935-ac02-7e7f60582825)
-
-
+![1](https://github.com/user-attachments/assets/72114cc9-314b-40a7-8e82-becbde1ad42a)
+![2](https://github.com/user-attachments/assets/a8a4709a-95aa-42f0-be01-6e1e73da9e59)
+![3](https://github.com/user-attachments/assets/0d4478c9-5592-4dab-a30a-bf14f34987d3)
+![4](https://github.com/user-attachments/assets/572d79ed-0681-411c-896b-eb4f4da22911)
